@@ -1,16 +1,15 @@
 ---
 engines:
+  bundler-audit:
+    enabled: true
   duplication:
     enabled: true
     config:
       languages:
       - ruby
-  fixme:
-    enabled: true
   rubocop:
     enabled: true
 ratings:
   paths:
   - "**.rb"
-exclude_paths:
-- spec/
+exclude_paths: 
